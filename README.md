@@ -3,6 +3,8 @@ demo_secrets
 
 Shhhhh....
 
+# MODEL TESETING
+
 [Pramod Jacob](https://github.com/domarp-j)
 [Luke Schleicher](https://github.com/luke-schleicher)
 
@@ -46,4 +48,7 @@ Shhhhh....
   * last_five doesn't return more than 5 entries
   * last_five secrets aren't in ascending order by id
 
+# INTEGRATION TESTING
 
+[Pramod Jacob](github.com/domarp-j)
+[Catherine Kwak](github.com/khopsickle)
