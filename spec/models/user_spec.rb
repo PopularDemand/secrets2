@@ -42,7 +42,7 @@ describe User do
 
   it 'is invalid if email is already taken' do
     user.save
-    new_user = build(:user)
+    new_user = build(:user, email: user.email)
     expect(new_user).to_not be_valid
   end
 
