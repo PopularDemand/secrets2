@@ -3,12 +3,12 @@ demo_secrets
 
 Shhhhh....
 
-# MODEL TESETING
+## MODEL TESETING
 
 [Pramod Jacob](https://github.com/domarp-j)
 [Luke Schleicher](https://github.com/luke-schleicher)
 
-## User
+### User
 
 * Happy Paths
 
@@ -31,7 +31,7 @@ Shhhhh....
   * Trying to delete another user when logged in? (more a controller thing)
 
 
-## Secret
+### Secret
 
 * Happy Paths
   * has an associated author
@@ -48,7 +48,7 @@ Shhhhh....
   * last_five doesn't return more than 5 entries
   * last_five secrets aren't in ascending order by id
 
-# INTEGRATION TESTING
+## INTEGRATION TESTING
 
 [Pramod Jacob](github.com/domarp-j)
 [Catherine Kwak](github.com/khopsickle)
