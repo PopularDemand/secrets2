@@ -10,7 +10,7 @@ describe SecretsController do
 
     it 'properly sets @secret' do
       # get secret_url(secret) # not working?
-      process :show#, params: { id: secret.id }
+      process :show, params: { id: secret.id }
       expect(secret.persisted?).to be true
       expect(assigns(:secret)).to eq(secret)
     end
@@ -18,5 +18,3 @@ describe SecretsController do
   end
 
 end
-
-adl;fkjasdlkf

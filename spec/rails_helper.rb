@@ -62,4 +62,5 @@ RSpec.configure do |config|
 
   # Capybara Macros
   config.include LoginMacros
+  config.include SignInMacros
 end
