@@ -7,8 +7,8 @@ FactoryGirl.define do
   end
 
   factory :secret do
-    title     "foo title"
-    body      "foo body"
+    title "foo title"
+    body "foo body"
     author
   end
 
