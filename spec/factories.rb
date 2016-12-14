@@ -5,8 +5,12 @@ FactoryGirl.define do
     sequence(:email) { "#{name}@bar.com" }
     password  "foobar"
 
-    trait :user_blank_name do
+    trait :blank_name do
       name ''
+    end
+
+    trait :non_default_name do
+      name "oof"
     end
   end
 
