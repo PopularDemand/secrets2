@@ -18,6 +18,9 @@ FactoryGirl.define do
     title "foo title"
     body "foo body"
     author
+    trait :non_default_title do
+      title "eltit oof"
+    end
   end
 
 end
